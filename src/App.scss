@@ -1,0 +1,23 @@
+$primary-color: #000000;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Moonet';
+  src: url('./assets/fonts/MoonetdemoRegular-6RnxY.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Assistant';
+  src: url('./assets/fonts/Assistant-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('./assets/fonts/GlacialIndifference-Regular.otf') format('opentype');
+}
+
+input,
+textarea {
+  font-family: 'Assistant';
+}
